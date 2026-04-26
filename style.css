@@ -493,18 +493,98 @@ h2 + .about-content {
     margin-left: 0.4rem;
 }
 
-.map-placeholder {
+/* ─── Travel Map ────────────────────────────────────────────────── */
+#travel-map {
     width: 100%;
-    height: 300px;
-    background: var(--color-surface);
-    border: 2px dashed var(--color-border);
+    height: 480px;
     border-radius: 8px;
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+}
+
+/* Leaflet popup overrides */
+.leaflet-popup-content-wrapper {
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(11, 31, 58, 0.12);
+    border: 1px solid var(--color-border);
+    padding: 0;
+}
+
+.leaflet-popup-content {
+    margin: 0.75rem 1rem;
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--color-text);
+}
+
+.leaflet-popup-content strong {
+    display: block;
+    color: var(--color-navy);
+    font-size: 0.95rem;
+    margin-bottom: 0.2rem;
+}
+
+.leaflet-popup-tip {
+    background: #fff;
+}
+
+.popup-tag {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.popup-tag--home {
+    background: #fde8ec;
+    color: #b06070;
+}
+
+.popup-tag--visited {
+    background: #e8eef5;
+    color: var(--color-blue);
+}
+
+/* Legend */
+.map-legend {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 0.6rem 0.85rem;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.legend-item {
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: var(--color-text-muted);
-    font-size: 0.9rem;
-    letter-spacing: 0.05em;
+    gap: 0.5rem;
+}
+
+.legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+.legend-dot--home {
+    background: #F4B8C1;
+    border: 2px solid #D48A97;
+}
+
+.legend-dot--visited {
+    background: #0B1F3A;
+    border: 2px solid #1D6FA4;
 }
 
 /* ─── Hobbies ───────────────────────────────────────────────────── */
@@ -629,6 +709,10 @@ footer {
 @media (max-width: 768px) {
     :root {
         --section-pad: 4rem 1.25rem;
+    }
+
+    #travel-map {
+        height: 320px;
     }
 
     .nav-links {
