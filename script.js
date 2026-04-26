@@ -62,6 +62,8 @@
         { coords: [35.0116,  135.7681], label: 'Kyoto',       country: 'Japan'          },
         { coords: [35.1796,  129.0756], label: 'Busan',       country: 'South Korea'    },
         { coords: [50.9333,    6.9500], label: 'Rhineland',   country: 'Germany'        },
+        { coords: [50.8503,    4.3517], label: 'Brussels',    country: 'Belgium'        },
+        { coords: [51.2093,    3.2247], label: 'Brugge',      country: 'Belgium'        },
         { coords: [51.5074,   -0.1278], label: 'London',      country: 'United Kingdom' },
         { coords: [53.3498,   -6.2603], label: 'Dublin',      country: 'Ireland'        },
         { coords: [12.5211,  -69.9683], label: 'Aruba',       country: 'Aruba'          },

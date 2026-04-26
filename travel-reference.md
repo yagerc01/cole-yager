@@ -32,6 +32,7 @@ This file is the source of truth; the website pulls from it.
 | Tokyo, Osaka, Kyoto | Japan | January 2024 |
 | Busan | South Korea | |
 | Rhineland region | Germany | |
+| Brussels, Brugge | Belgium | |
 | London | United Kingdom | |
 | Dublin | Ireland | |
 | Milan, Rome | Italy | |
