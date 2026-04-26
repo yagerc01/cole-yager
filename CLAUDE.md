@@ -47,6 +47,12 @@ Files to maintain there: dev-log.md, decisions.md
   borders, hover states, decorative elements). Not for primary text or backgrounds.
 - Refer to backlog.md before starting new features
 
+## File Sync Convention
+- `backlog.md` is maintained in the project root AND mirrored to Obsidian at:
+  `/Users/coleyager/Documents/Cole'sBrain/Projects/cole-yager/backlog.md`
+- Whenever backlog.md is updated, copy it to Obsidian too (cp command or Write to both paths)
+- `travel-reference.md` lives only in the project root — it is the master travel source of truth
+
 ## Key Links
 - LinkedIn: https://www.linkedin.com/in/cole-m-yager/
 - GitHub: https://github.com/yagerc01
