@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cole M. Yager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,6 +19,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#travel">Travel</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -24,11 +28,43 @@
     <!-- HERO -->
     <section id="hero">
         <div class="hero-inner">
+            <p class="hero-eyebrow"><!-- e.g. "Software Engineer & Product Thinker" --></p>
             <h1>Cole M. Yager</h1>
-            <p class="hero-tagline"><!-- tagline / title goes here --></p>
+            <p class="hero-tagline"><!-- One-line tagline — personality + profession --></p>
+
+            <!-- Credential / stat bins — add logos to assets/logos/ -->
+            <div class="hero-stats">
+
+                <div class="stat-bin">
+                    <div class="stat-logo-placeholder"><!-- <img src="assets/logos/university.png" alt="University"> --></div>
+                    <span class="stat-title"><!-- Degree --></span>
+                    <span class="stat-sub"><!-- Institution --></span>
+                </div>
+
+                <div class="stat-bin">
+                    <div class="stat-logo-placeholder"><!-- <img src="assets/logos/university2.png" alt="University"> --></div>
+                    <span class="stat-title"><!-- Degree / Cert --></span>
+                    <span class="stat-sub"><!-- Institution --></span>
+                </div>
+
+                <div class="stat-bin">
+                    <div class="stat-logo-placeholder"><!-- icon or number --></div>
+                    <span class="stat-title"><!-- e.g. "5+ Years" --></span>
+                    <span class="stat-sub">Experience</span>
+                </div>
+
+                <div class="stat-bin">
+                    <div class="stat-logo-placeholder"><!-- icon or count --></div>
+                    <span class="stat-title"><!-- e.g. "3 Certifications" --></span>
+                    <span class="stat-sub"><!-- Field / Domain --></span>
+                </div>
+
+            </div>
+
             <div class="hero-cta">
-                <a href="#about" class="btn btn-primary">Learn More</a>
-                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <a href="#about" class="btn btn-primary">About Me</a>
+                <a href="https://www.linkedin.com/in/cole-m-yager/" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+                <!-- <a href="assets/cole-yager-resume.pdf" class="btn btn-ghost" download>Resume</a> -->
             </div>
         </div>
     </section>
@@ -39,10 +75,12 @@
             <h2>About</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p><!-- Bio paragraph 1 --></p>
-                    <p><!-- Bio paragraph 2 --></p>
+                    <p><!-- Bio paragraph 1 — professional background, what you do --></p>
+                    <p><!-- Bio paragraph 2 — what drives you, how you think --></p>
+                    <p><!-- Bio paragraph 3 (optional) — personal/human element --></p>
                 </div>
-                <!-- <img src="assets/headshot.jpg" alt="Cole Yager" class="headshot"> -->
+                <!-- Uncomment when headshot is ready -->
+                <!-- <img src="assets/headshot.jpg" alt="Cole M. Yager" class="headshot"> -->
             </div>
         </div>
     </section>
@@ -56,14 +94,17 @@
                 <div class="experience-item">
                     <div class="exp-header">
                         <span class="exp-role"><!-- Job Title --></span>
-                        <span class="exp-dates"><!-- Start – End --></span>
+                        <span class="exp-dates"><!-- Month Year – Month Year --></span>
                     </div>
                     <span class="exp-company"><!-- Company Name --></span>
                     <ul class="exp-bullets">
                         <li><!-- Key accomplishment or responsibility --></li>
                         <li><!-- Key accomplishment or responsibility --></li>
+                        <li><!-- Key accomplishment or responsibility --></li>
                     </ul>
                 </div>
+
+                <!-- Duplicate .experience-item for each role -->
 
             </div>
         </div>
@@ -76,12 +117,79 @@
             <div class="projects-grid">
 
                 <div class="project-card">
-                    <h3><!-- Project Name --></h3>
-                    <p><!-- Short description --></p>
+                    <h3>Cosmic Timer Protocol</h3>
+                    <p>A space/cyber-themed multi-timer dashboard. Five simultaneous countdown timers with master controls and per-timer controls.</p>
                     <div class="project-links">
-                        <a href="#">Live</a>
-                        <a href="#">GitHub</a>
+                        <a href="https://cosmictimerprotocol.netlify.app" target="_blank" rel="noopener">Live</a>
+                        <a href="https://github.com/yagerc01/timer-app" target="_blank" rel="noopener">GitHub</a>
                     </div>
+                </div>
+
+                <!-- Add more project cards here -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAVEL & WHERE I'VE LIVED -->
+    <section id="travel">
+        <div class="section-inner">
+            <h2>Travel &amp; Where I've Been</h2>
+            <p class="section-intro"><!-- A line or two about your relationship with travel --></p>
+
+            <div class="places-grid">
+
+                <!-- Lived -->
+                <div class="places-column">
+                    <h3 class="places-heading">Lived</h3>
+                    <ul class="places-list">
+                        <li><!-- City, State/Country --></li>
+                        <li><!-- City, State/Country --></li>
+                    </ul>
+                </div>
+
+                <!-- Visited -->
+                <div class="places-column">
+                    <h3 class="places-heading">Visited</h3>
+                    <ul class="places-list">
+                        <li><!-- City, Country --></li>
+                        <li><!-- City, Country --></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Map placeholder — replace with Leaflet.js map later -->
+            <div class="map-placeholder">
+                <span>Interactive map coming soon</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies">
+        <div class="section-inner">
+            <h2>Outside of Work</h2>
+            <p class="section-intro"><!-- Short human intro line --></p>
+            <div class="hobbies-grid">
+
+                <div class="hobby-card">
+                    <span class="hobby-icon"><!-- emoji or icon --></span>
+                    <h3><!-- Hobby Name --></h3>
+                    <p><!-- One or two lines --></p>
+                </div>
+
+                <div class="hobby-card">
+                    <span class="hobby-icon"><!-- emoji or icon --></span>
+                    <h3><!-- Hobby Name --></h3>
+                    <p><!-- One or two lines --></p>
+                </div>
+
+                <div class="hobby-card">
+                    <span class="hobby-icon"><!-- emoji or icon --></span>
+                    <h3>Music &amp; Live Shows</h3>
+                    <p><!-- Backlog: concert ticker goes here --></p>
                 </div>
 
             </div>
@@ -92,11 +200,12 @@
     <section id="contact">
         <div class="section-inner">
             <h2>Contact</h2>
-            <p><!-- Short intro line --></p>
+            <p class="section-intro"><!-- Short line — open to what? (opportunities, chats, collaborations) --></p>
             <div class="contact-links">
                 <a href="mailto:cole.yager.m@gmail.com">Email</a>
-                <a href="https://linkedin.com/in/<!-- handle -->" target="_blank">LinkedIn</a>
-                <a href="https://github.com/yagerc01" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/cole-m-yager/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/yagerc01" target="_blank" rel="noopener">GitHub</a>
+                <!-- <a href="assets/cole-yager-resume.pdf" download>Resume</a> -->
             </div>
         </div>
     </section>
