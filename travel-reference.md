@@ -28,10 +28,12 @@ This file is the source of truth; the website pulls from it.
 | Amsterdam | Netherlands | New Years 2024/2025 |
 | Porto | Portugal | |
 | Lisbon | Portugal | |
-| Reykjavik + Husavik | Iceland | June 2024; ring road road trip |
+| Reykjavik, Husavik, Akureyri | Iceland | June 2024; ring road road trip |
 | Tokyo, Osaka, Kyoto | Japan | January 2024 |
 | Busan | South Korea | |
 | Rhineland region | Germany | |
 | London | United Kingdom | |
 | Dublin | Ireland | |
+| Milan, Rome | Italy | |
+| Bahrain | Bahrain | |
 | Aruba | Aruba | |
